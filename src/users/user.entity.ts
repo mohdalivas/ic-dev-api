@@ -6,7 +6,7 @@ import * as mongoose from 'mongoose';
 require('dotenv').config()
 
 var SALT_WORK_FACTOR = 10;
-console.log('MONGODB', process.env.MONGODB)
+// console.log('MONGODB', process.env.MONGODB)
 mongoose.connect(process.env.MONGODB, {
   useNewUrlParser: true,
   useFindAndModify: false,
